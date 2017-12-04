@@ -2,9 +2,6 @@ package com.patricktcoakley.day1;
 
 import org.junit.*;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-
 import static org.junit.Assert.*;
 
 public class CaptchaCheckerTest {

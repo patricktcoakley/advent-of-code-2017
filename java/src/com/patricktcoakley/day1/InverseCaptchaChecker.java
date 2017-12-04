@@ -3,7 +3,7 @@ package com.patricktcoakley.day1;
 import java.util.ArrayList;
 
 public class InverseCaptchaChecker {
-    private ArrayList<Integer> numbers = new ArrayList<>();
+    private ArrayList<Integer> numbers;
 
     public InverseCaptchaChecker(String string) {
         this.numbers = new StringToArrayList(string).stringToArray();

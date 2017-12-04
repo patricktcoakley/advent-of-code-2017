@@ -3,7 +3,7 @@ package com.patricktcoakley.day1;
 import java.util.ArrayList;
 
 public class CaptchaChecker {
-    private ArrayList<Integer> numbers = new ArrayList<>();
+    private ArrayList<Integer> numbers;
 
     public CaptchaChecker(String string) {
         this.numbers = new StringToArrayList(string).stringToArray();
